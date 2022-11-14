@@ -78,16 +78,16 @@ Critic:
 ## Hyperparameters
 
 ```
-BUFFER_SIZE = int(1e6)  # replay buffer size
-BATCH_SIZE = 256        # minibatch size
-GAMMA = 0.999            # discount factor
-TAU = 8e-3              # for soft update of target parameters
-LR_ACTOR = 1e-4         # learning rate of the actor 
-LR_CRITIC = 3e-4        # learning rate of the critic
-WEIGHT_DECAY = 0.0      # L2 weight decay
-LEARN_EVERY = 1         # learning timestep interval
-LEARN_NUM = 5           # number of learning passes
-START_LEARN = 500       # number of episodes before starting to learn
+BUFFER_SIZE = int(1e6)        # replay buffer size
+BATCH_SIZE = 256              # minibatch size
+GAMMA = 0.999                 # discount factor
+TAU = 8e-3           	      # for soft update of target parameters
+LR_ACTOR = 1e-4      	      # learning rate of the actor 
+LR_CRITIC = 3e-4      	      # learning rate of the critic
+WEIGHT_DECAY = 0.0    	      # L2 weight decay
+LEARN_EVERY = 1       	      # learning timestep interval
+LEARN_NUM = 5         	      # number of learning passes
+START_LEARN = 500      	      # number of episodes before starting to learn
 NOISE_REDUCTION_RATE = 0.99
 NOISE_START=1.0
 NOISE_END=0.01
