@@ -6,7 +6,7 @@
 
 # Project 3: Tennis
 
-### Introduction
+## Introduction
 
 For this project, you will work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.
 
@@ -23,7 +23,7 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-### Getting Started
+## Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
@@ -42,7 +42,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 Follow the instructions in `Tennis.ipynb` to get started with training your own agent! Download the Agents and trained models to see how they perform!  
 
 
----
 
 ## Learning algorithm
 
