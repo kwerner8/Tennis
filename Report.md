@@ -48,6 +48,13 @@ NOISE_START=1.0
 NOISE_END=0.01
 ```
 
+## Results 
+
+The current model achieved quite good results. The task was solved after 1105 episodes by reaching an average score of 0.5. The score continued to increase well above the required threshold. The agent was not trained for many more episodes, as shown in the graphic. This could lead to a possible deterioration of the average score, as described in the project description.
+
+<img width="400" alt="Bildschirmfoto 2022-11-14 um 23 02 03" src="https://user-images.githubusercontent.com/100682506/201777913-5bc61c36-9279-4c11-85a1-6f24ad1c4d4b.png">
+
+
 
 ## Future work
 
